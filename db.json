@@ -1,0 +1,564 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "keyWord": "key123",
+      "name": "Tayyor taomlar",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "isActive": false,
+      "img": "https://i.pinimg.com/originals/d2/b5/c2/d2b5c2a6a5133645e6ba09fe97978049.jpg"
+    },
+    {
+      "name": "Salatlar",
+      "keyWord": "key123",
+      "img": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666348685_17-mykaleidoscope-ru-p-salati-perevertishi-oboi-19.jpg",
+      "isActive": true,
+      "languages": {
+        "ru": "при",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "id": 2
+    },
+    {
+      "id": 3,
+      "keyWord": "key123",
+      "name": "Non va shirinliklar",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "isActive": false,
+      "img": "https://images.alphacoders.com/900/thumb-1920-900696.jpg"
+    },
+    {
+      "id": 4,
+      "keyWord": "key123",
+      "name": "Ichimliklar",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "isActive": false,
+      "img": "https://i.pinimg.com/originals/7f/b0/4e/7fb04e0c03c15534904dc77c263b17a0.jpg"
+    },
+    {
+      "id": 5,
+      "keyWord": "key123",
+      "name": "Tayyor set",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "isActive": true,
+      "img": "https://podacha-blud.com/uploads/posts/2022-10/1665567869_45-podacha-blud-com-p-fud-fotografiya-47.jpg"
+    },
+    {
+      "id": 6,
+      "keyWord": "key123",
+      "name": "Goshtli taomlar",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      },
+      "timeFood": {
+        "start": "11:00",
+        "end": "17:00"
+      },
+      "isActive": false,
+      "img": "https://podacha-blud.com/uploads/posts/2022-06/1654220829_22-podacha-blud-com-p-krasivoe-foto-steikov-foto-25.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "isActive": false,
+      "categoryId": 1,
+      "price": 55000,
+      "kal": 500,
+      "img": "https://avatars.mds.yandex.net/i?id=d19d56394207984e811524572993475527f7d58c-9097381-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Oshsh",
+      "languages": {
+        "ru": "Плов",
+        "eng": "Plov"
+      }
+    },
+    {
+      "id": 2,
+      "isActive": false,
+      "categoryId": 1,
+      "price": 45000,
+      "kal": 900,
+      "img": "https://avatars.mds.yandex.net/i?id=af5d10b95312f644a08efa8edd9f68ade0f90e96-9148772-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Dimlama",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 3,
+      "isActive": false,
+      "categoryId": 1,
+      "price": 25000,
+      "kal": 800,
+      "img": "https://avatars.mds.yandex.net/i?id=9edf5dda4322e7aedcd7ae802fabf506157b5b8b-10385057-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "categoryId": 1,
+      "price": 20000,
+      "kal": 300,
+      "img": "https://avatars.mds.yandex.net/i?id=e66940dd79ea1b6abeeafa6443199fda0cffb2dc-10787799-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 5,
+      "isActive": true,
+      "categoryId": 1,
+      "price": 60000,
+      "kal": 1000,
+      "img": "https://avatars.mds.yandex.net/i?id=f519b6318bb2a759d59c2a80e5501caa47893505-10586727-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Beshbarmoq",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 6,
+      "isActive": true,
+      "categoryId": 1,
+      "price": 50000,
+      "kal": 1100,
+      "img": "https://avatars.mds.yandex.net/i?id=d9062bc62604abc6fcea8de4d67572976bae5d07-7020937-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Norin",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 7,
+      "isActive": false,
+      "categoryId": 2,
+      "price": 25000,
+      "kal": 100,
+      "img": "https://avatars.mds.yandex.net/i?id=58bcd16fa1887b01e5bf00f7c216121bde8f527c-10878141-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad Bodiring",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 8,
+      "isActive": true,
+      "categoryId": 2,
+      "price": 25000,
+      "kal": 200,
+      "img": "http://content-27.foto.my.mail.ru/community/edimdoma/_groupsphoto/h-13079.jpg",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad 2",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 9,
+      "isActive": false,
+      "categoryId": 2,
+      "price": 30000,
+      "kal": 300,
+      "img": "https://mykaleidoscope.ru/uploads/posts/2022-07/1656640087_7-mykaleidoscope-ru-p-priprava-dlya-grecheskogo-salata-yeda-kras-8.jpg",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad 3",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 10,
+      "isActive": true,
+      "categoryId": 2,
+      "price": 50000,
+      "kal": 200,
+      "img": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666363445_23-mykaleidoscope-ru-p-salat-kolkhoznii-oboi-25.jpg",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad Gosht",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 11,
+      "isActive": true,
+      "categoryId": 2,
+      "price": 10000,
+      "kal": 100,
+      "img": "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666348746_27-mykaleidoscope-ru-p-salati-perevertishi-oboi-30.jpg",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad oddiy",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 12,
+      "isActive": true,
+      "categoryId": 2,
+      "price": 110000,
+      "kal": 500,
+      "img": "https://kenguru-ru.ru/images/product/539_a7e768fe94bc.jpg",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Salad Gold",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 13,
+      "isActive": false,
+      "categoryId": 3,
+      "price": 55000,
+      "kal": 500,
+      "img": "https://avatars.mds.yandex.net/i?id=d19d56394207984e811524572993475527f7d58c-9097381-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Osh",
+      "languages": {
+        "ru": "Плов",
+        "eng": "Plov"
+      }
+    },
+    {
+      "id": 14,
+      "isActive": false,
+      "categoryId": 3,
+      "price": 45000,
+      "kal": 900,
+      "img": "https://avatars.mds.yandex.net/i?id=af5d10b95312f644a08efa8edd9f68ade0f90e96-9148772-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Dimlama",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 15,
+      "isActive": false,
+      "categoryId": 3,
+      "price": 25000,
+      "kal": 800,
+      "img": "https://avatars.mds.yandex.net/i?id=9edf5dda4322e7aedcd7ae802fabf506157b5b8b-10385057-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 16,
+      "isActive": true,
+      "categoryId": 3,
+      "price": 20000,
+      "kal": 300,
+      "img": "https://avatars.mds.yandex.net/i?id=e66940dd79ea1b6abeeafa6443199fda0cffb2dc-10787799-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 17,
+      "isActive": true,
+      "categoryId": 3,
+      "price": 60000,
+      "kal": 1000,
+      "img": "https://avatars.mds.yandex.net/i?id=f519b6318bb2a759d59c2a80e5501caa47893505-10586727-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Beshbarmoq",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 18,
+      "isActive": true,
+      "categoryId": 3,
+      "price": 50000,
+      "kal": 1100,
+      "img": "https://avatars.mds.yandex.net/i?id=d9062bc62604abc6fcea8de4d67572976bae5d07-7020937-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Norin",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 19,
+      "isActive": false,
+      "categoryId": 4,
+      "price": 55000,
+      "kal": 500,
+      "img": "https://avatars.mds.yandex.net/i?id=d19d56394207984e811524572993475527f7d58c-9097381-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Osh",
+      "languages": {
+        "ru": "Плов",
+        "eng": "Plov"
+      }
+    },
+    {
+      "id": 20,
+      "isActive": false,
+      "categoryId": 4,
+      "price": 45000,
+      "kal": 900,
+      "img": "https://avatars.mds.yandex.net/i?id=af5d10b95312f644a08efa8edd9f68ade0f90e96-9148772-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Dimlama",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 21,
+      "isActive": false,
+      "categoryId": 4,
+      "price": 25000,
+      "kal": 800,
+      "img": "https://avatars.mds.yandex.net/i?id=9edf5dda4322e7aedcd7ae802fabf506157b5b8b-10385057-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 22,
+      "isActive": true,
+      "categoryId": 4,
+      "price": 20000,
+      "kal": 300,
+      "img": "https://avatars.mds.yandex.net/i?id=e66940dd79ea1b6abeeafa6443199fda0cffb2dc-10787799-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Samsa",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 23,
+      "isActive": true,
+      "categoryId": 4,
+      "price": 60000,
+      "kal": 1000,
+      "img": "https://avatars.mds.yandex.net/i?id=f519b6318bb2a759d59c2a80e5501caa47893505-10586727-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Beshbarmoq",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 24,
+      "isActive": true,
+      "categoryId": 4,
+      "price": 50000,
+      "kal": 1100,
+      "img": "https://avatars.mds.yandex.net/i?id=d9062bc62604abc6fcea8de4d67572976bae5d07-7020937-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Norin",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 25,
+      "isActive": true,
+      "categoryId": 5,
+      "price": 50000,
+      "kal": 1100,
+      "img": "https://avatars.mds.yandex.net/i?id=d9062bc62604abc6fcea8de4d67572976bae5d07-7020937-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Norin",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    },
+    {
+      "id": 26,
+      "isActive": true,
+      "categoryId": 6,
+      "price": 50000,
+      "kal": 1100,
+      "img": "https://avatars.mds.yandex.net/i?id=d9062bc62604abc6fcea8de4d67572976bae5d07-7020937-images-thumbs&n=13",
+      "comment": "Juda mazali !",
+      "commentEngRu": {
+        "ru": "Очень вкусно !",
+        "eng": "Very taste !"
+      },
+      "name": "Norin",
+      "languages": {
+        "ru": "Еда",
+        "eng": "Food"
+      }
+    }
+  ]
+}
